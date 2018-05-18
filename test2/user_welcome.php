@@ -1,7 +1,8 @@
 <?php
 session_start();
 //require('connect_db.php');
-include "function_disease_fetch.php";
+//include "function_disease_fetch.php";
+include "classes.php";
 
 
 if(!$_SESSION['Email']){
@@ -72,10 +73,10 @@ $name2 = $row['name2'];
 		
 		<?php
 		
+		$fetch= new Disease();
 		
 		
-		
-		disease_fetch();
+	$fetch-> disease_fetch();
 		
 		
 		

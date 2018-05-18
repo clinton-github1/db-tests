@@ -5,8 +5,8 @@ require('connect_db.php');
 if(isset($_POST['adm_log']))
 {
 
-$Name=md5($_POST['admin_name']);
-$Password=md5($_POST['admin_pass']);
+$Name=($_POST['admin_name']);
+$Password=($_POST['admin_pass']);
 
 
 $Name=mysqli_real_escape_string($con, $Name);

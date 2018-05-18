@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
          <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
 
 <header>
 
@@ -51,8 +51,3 @@ circularText("COHESION DIGITAL HEALTH PARTNER ", 70, 0);
       
       </script>
       </div>
-
-
-      </div>
-      </body>
-      </html>

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 14, 2018 at 05:37 PM
+-- Generation Time: May 18, 2018 at 03:20 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 5.6.20
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `disease_test`
+-- Database: `diseases`
 --
 
 -- --------------------------------------------------------
@@ -37,7 +37,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `Name`, `Password`) VALUES
-(2, '14b13c8dfec3420156262ecea203332b', '14b13c8dfec3420156262ecea203332b');
+(3, 'Admin', 'clinton');
 
 -- --------------------------------------------------------
 
@@ -111,8 +111,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`FName`, `LName`, `Email`, `Password`, `Cpassword`, `Country`) VALUES
-('mark', 'jabez', 'clintonwilliams16@gmail.com', 'f6Lj4xL.neiOw', 'f6Lj4xL.neiOw', 'Kenya'),
-('martin', 'odhis', 'clintonwilliams801@gmail.com', 'maX607D7FUyk2', 'maX607D7FUyk2', 'Kenya');
+('Clinton', 'clinton', 'clintonwilliams16@gmail.com', 'clttxZo5un6mk', 'clttxZo5un6mk', 'Kenya');
 
 --
 -- Indexes for dumped tables
@@ -150,7 +149,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `email_server`
 --
